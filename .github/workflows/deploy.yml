@@ -18,4 +18,4 @@ jobs:
           region: "us"
         env:
           HD_TOKEN: ${{secrets.TOKEN}}        
-          HD_BASE_URL_OF_BOT: ${{secrets.BASE_URL_OF_BOT}}
+
