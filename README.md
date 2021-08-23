@@ -1,4 +1,4 @@
-# TG WhisperBot
+# TG WhisperBot [Sinhala Branch]
 
 A Inline TeleGram Bot that can send messeges via bot to a specific user and only he/she will able to read the message!
 
