@@ -13,7 +13,7 @@ A Inline TeleGram Bot that can send messeges via bot to a specific user and only
 
 🤝 Dan for his Pyrogram
 
-🤝 Me For Adding Bold Letters to make bot better 😅.
+🤝 Me For Adding Bold Letters & **Sinhala** Branch to make bot & Repo better 😅.
 
 ## Vars
 
