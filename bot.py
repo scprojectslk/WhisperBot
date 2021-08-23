@@ -20,9 +20,9 @@ db = {}
 @bot.on(events.NewMessage(pattern="^[!?/]start$"))
 async def stsrt(event):
     await event.reply(
-            "𝗛𝗲𝘆𝗮, 𝗜 𝗮𝗺 𝗮 𝗪𝗵𝗶𝘀𝗽𝗲𝗿 𝗕𝗼𝘁!😀",
+            "හායි,මම 𝗪𝗵𝗶𝘀𝗽𝗲𝗿 𝗕𝗼𝘁!😀",
             buttons=[
-                [Button.switch_inline("𝗚𝗼 𝗜𝗻𝗹𝗶𝗻𝗲", query="")]
+                [Button.switch_inline("𝗜𝗻𝗹𝗶𝗻𝗲 යමු", query="")]
                 ]
             )
 
@@ -34,10 +34,10 @@ async def die(event):
     me = (await bot.get_me()).username
     dn = event.builder.article(
             title="It's a whisper bot!",
-            description="It's a whisper Bot!\n(c) SC Projects LK",
-            text=f"**It's a whisper bot**\n`@{me} wspr UserID|Message`\n**(c) SC Projects LK**",
+            description="හෙලෝ Itz Me whisper Bot!\n(c) SC Projects LK",
+            text=f"**හායි Itz Me a whisper bot**\n`@{me} wspr User ගෙ ID|පණිවුඩය`\n**(c) SC Projects LK**",
             buttons=[
-                [Button.switch_inline(" 𝗚𝗼 𝗜𝗻𝗹𝗶𝗻𝗲 ", query="wspr ")]
+                [Button.switch_inline("𝗜𝗻𝗹𝗶𝗻𝗲 යමු", query="wspr ")]
                 ]
             )
     await event.answer([dn])
@@ -57,7 +57,7 @@ async def inline(event):
     except ValueError:
         await event.answer(
                 [],
-                switch_pm=f"Give a message too! 🤔",
+                switch_pm=f"පණිවුඩයකුත් දෙන්න! 🤔",
                 switch_pm_param="start"
                 )
     try:
@@ -77,11 +77,11 @@ Click The Below Button To See The Message!
 **Note:** __Only {ui.user.first_name} can open this!__
     """
     dn = event.builder.article(
-            title="Its a secret message! Sssh 🤐",
-            description="It's a secret message! Sssh!🤐",
+            title="එය රහස් පණිවුඩයක්! Sssh 🤐",
+            description="එය රහස් පණිවුඩයක්! Sssh!🤐",
             text=text,
             buttons=[
-                [Button.inline(" 𝗦𝗵𝗼𝘄 𝗠𝗲𝘀𝘀𝗮𝗴𝗲! 👀 ", data="wspr")]
+                [Button.inline("පණිවුඩය පෙන්වන්න! 👀 ", data="wspr")]
                 ]
             )
     await event.answer(
@@ -97,7 +97,7 @@ async def ws(event):
     lol = [int(db["self"])]
     lol.append(user)
     if event.sender.id not in lol:
-        await event.answer("🔐 𝗧𝗵𝗶𝘀 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗶𝘀 𝗻𝗼𝘁 𝗳𝗼𝗿 𝘆𝗼𝘂! 🤔", alert=True)
+        await event.answer("🔐 මේ පණිවුඩය ඔබට නොවේ! 🤔", alert=True)
         return
     msg = db["msg"]
     if msg == []:
