@@ -1,5 +1,4 @@
-![Whisper-SC Bot V2](https://telegra.ph/file/c978d3ec213766d38a381.jpg) width="100px" bredth="100px"
-
+![Whisper-SC Bot V2](https://telegra.ph/file/c978d3ec213766d38a381.jpg) 
 # Whisper-SC Bot [*_Sinhala Branch_*]
 
 A Inline TeleGram Bot that can send messeges via bot to a specific user and only he/she will able to read the message!
