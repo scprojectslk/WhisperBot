@@ -7,7 +7,7 @@ A Inline TeleGram Bot that can send messeges via bot to a specific user and only
 
 # Deploy To Heroku
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/scprojectslk/WhisperBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/scprojectslk/WhisperBot/tree/main)
 
 # Credits 🐈
 
