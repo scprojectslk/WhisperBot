@@ -1,4 +1,4 @@
-src="https://telegra.ph/file/c978d3ec213766d38a381.jpg" 
+![Whisper-SC Bot V2](https://telegra.ph/file/c978d3ec213766d38a381.jpg)
 
 # Whisper-SC Bot [*_Sinhala Branch_*]
 
